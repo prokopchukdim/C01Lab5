@@ -39,5 +39,5 @@ jobs:
 
     - run: npm i
 
-    - run: npm start & npx wait-on http://localhost:4000
+    - run: npm start &
     - run: npm test
